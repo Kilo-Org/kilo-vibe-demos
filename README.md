@@ -30,6 +30,8 @@ A classic Snake game implementation built with TypeScript and Vite, featuring mo
 - Vite
 - HTML5 Canvas
 
+**[🎮 Play Live Demo](https://main.kilo-demo-snake-1.pages.dev)**
+
 ## Getting Started
 
 ### Prerequisites
