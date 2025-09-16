@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Basic Layout</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo">KiloFlix</div>
+      <nav class="nav">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">TV Shows</a></li>
+          <li><a href="#">Movies</a></li>
+          <li><a href="#">New & Popular</a></li>
+          <li><a href="#">My List</a></li>
+        </ul>
+      </nav>
+      <div class="profile">👤</div>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="hero-content">
+          <h1>Featured Movie Title</h1>
+          <p>
+            This is a brief description of the featured movie. It showcases the
+            main plot or highlights.
+          </p>
+          <div class="hero-buttons">
+            <button class="play-btn">▶ Play</button>
+            <button class="info-btn">ℹ More Info</button>
+          </div>
+        </div>
+      </section>
+      <section class="row">
+        <h2>Trending Now</h2>
+        <div class="row-posters"></div>
+      </section>
+      <section class="row">
+        <h2>Top Rated</h2>
+        <div class="row-posters"></div>
+      </section>
+      <section class="row">
+        <h2>Action Movies</h2>
+        <div class="row-posters"></div>
+      </section>
+      <section class="row">
+        <h2>Comedy</h2>
+        <div class="row-posters"></div>
+      </section>
+      <section class="row">
+        <h2>Horror</h2>
+        <div class="row-posters"></div>
+      </section>
+    </main>
+    <!-- Modal Dialog -->
+    <div
+      id="modal"
+      class="modal"
+      role="dialog"
+      aria-labelledby="modal-title"
+      aria-hidden="true"
+    >
+      <div class="modal-content">
+        <button class="close-btn" aria-label="Close modal">&times;</button>
+        <img id="modal-image" src="" alt="Movie poster" />
+        <h2 id="modal-title"></h2>
+        <p id="modal-description"></p>
+        <div class="modal-buttons">
+          <button class="play-btn">▶ Play</button>
+          <button class="info-btn">ℹ More Info</button>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

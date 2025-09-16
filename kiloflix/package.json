@@ -1,0 +1,12 @@
+{
+  "name": "kiloflix",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Netflix-style streaming platform clone",
+  "type": "module",
+  "scripts": {
+    "dev": "python3 -m http.server 8000",
+    "build": "echo 'Static site - no build needed'",
+    "preview": "python3 -m http.server 8080"
+  }
+}

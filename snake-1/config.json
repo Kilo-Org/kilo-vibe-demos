@@ -1,0 +1,43 @@
+{
+  "grid_resolution": 30,
+  "base_speed": 10,
+  "color_palettes": {
+    "neon": {
+      "snake": "#00FF00",
+      "food": "#FF0000",
+      "background": "#000000",
+      "ui": "#FFFFFF",
+      "grid": "#333333"
+    },
+    "retro": {
+      "snake": "#00AA00",
+      "food": "#AA0000",
+      "background": "#000000",
+      "ui": "#FFFFFF",
+      "grid": "#444444"
+    },
+    "pastel": {
+      "snake": "#90EE90",
+      "food": "#FFB6C1",
+      "background": "#F5F5F5",
+      "ui": "#000000",
+      "grid": "#CCCCCC"
+    }
+  },
+  "sound_volumes": {
+    "food": 0.7,
+    "game_over": 0.5,
+    "ambient": 0.3
+  },
+  "lives_count": 3,
+  "walls_mode": true,
+  "key_bindings": {
+    "up": ["K_UP", "K_w"],
+    "down": ["K_DOWN", "K_s"],
+    "left": ["K_LEFT", "K_a"],
+    "right": ["K_RIGHT", "K_d"],
+    "pause": ["K_SPACE"],
+    "restart": ["K_r"],
+    "quit": ["K_ESCAPE", "K_q"]
+  }
+}

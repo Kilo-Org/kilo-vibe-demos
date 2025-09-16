@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Snake Game</title>
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <div id="app">
+      <img
+        id="logo"
+        src="logo.png"
+        alt="Snake Game Logo"
+        style="display: block; margin: 20px auto; max-width: 300px"
+      />
+      <div id="game-container">
+        <canvas id="gameCanvas" width="400" height="400" tabindex="0"></canvas>
+        <div id="start-message">Click or focus to start playing!</div>
+        <div id="game-over-overlay" class="hidden">
+          <div id="game-over-content">
+            <h2>Game Over</h2>
+            <div id="final-score">Score: 0</div>
+            <div id="restart-message">Click to play again</div>
+          </div>
+        </div>
+      </div>
+      <footer id="footer">
+        vibe coded with love by the
+        <a href="https://kilocode.ai/" target="_blank" rel="noopener noreferrer"
+          >Kilo Code team</a
+        >
+      </footer>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

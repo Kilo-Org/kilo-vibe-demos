@@ -1,0 +1,27 @@
+{
+  "neon": {
+    "snake": "#FF00FF",
+    "hello": "world",
+    "food": "#FF0000",
+    "background": "#000000",
+    "ui": "#FFFFFF",
+    "grid": "#333333",
+    "glow": "#00FF00"
+  },
+  "retro": {
+    "snake": "#00AA00",
+    "food": "#AA0000",
+    "background": "#000000",
+    "ui": "#FFFFFF",
+    "grid": "#444444",
+    "glow": "#00AA00"
+  },
+  "pastel": {
+    "snake": "#90EE90",
+    "food": "#FFB6C1",
+    "background": "#F5F5F5",
+    "ui": "#000000",
+    "grid": "#CCCCCC",
+    "glow": "#90EE90"
+  }
+}
